@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherClient.Utilities", "TeacherClient.Utilities\TeacherClient.Utilities.csproj", "{0F63C03B-B4D5-4F67-87C0-D5A190A26E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherClient", "TeacherClient\TeacherClient.csproj", "{D926A3E7-6D49-4C61-8FBD-A94C6B692BD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F63C03B-B4D5-4F67-87C0-D5A190A26E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F63C03B-B4D5-4F67-87C0-D5A190A26E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F63C03B-B4D5-4F67-87C0-D5A190A26E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F63C03B-B4D5-4F67-87C0-D5A190A26E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D926A3E7-6D49-4C61-8FBD-A94C6B692BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D926A3E7-6D49-4C61-8FBD-A94C6B692BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D926A3E7-6D49-4C61-8FBD-A94C6B692BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D926A3E7-6D49-4C61-8FBD-A94C6B692BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

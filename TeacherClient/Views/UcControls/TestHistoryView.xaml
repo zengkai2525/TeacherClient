@@ -1,0 +1,26 @@
+﻿<Canvas x:Class="TeacherClient.Views.UcControls.TestHistoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  Height="240" Width="580" Background="Transparent">
+    <Rectangle Height="240" Width="580" RadiusX="8" RadiusY="8" Fill="Black" Opacity="0.1"/>
+    <Border Canvas.Left="18" Canvas.Top="10" Height="218" Width="288" BorderBrush="#FF696065" BorderThickness="2">
+        <Image Height="212" Width="282" Source="/Resources/Images/Common/小试题图.PNG"></Image>
+    </Border>
+    <TextBlock FontFamily="微软雅黑" FontSize="32" Text="测试" Foreground="White" Canvas.Left="320" Canvas.Top="30"/>
+    <TextBlock FontFamily="微软雅黑" FontSize="32" Text="{Binding TestIndex, RelativeSource={RelativeSource AncestorType=Canvas}}" Foreground="White" Canvas.Left="400" Canvas.Top="32"/>
+    <TextBlock FontFamily="微软雅黑" FontSize="26" Text="参与人数：" Foreground="White" Canvas.Left="320" Canvas.Top="140"/>
+    <TextBlock FontFamily="微软雅黑" FontSize="26" Text="平均正确率：" Canvas.Left="320" Canvas.Top="175" Foreground="White"/>
+    <DockPanel Canvas.Right="30" Canvas.Top="140" >
+        <TextBlock x:Name="CompletedRate" FontFamily="微软雅黑" FontSize="26" Text="{Binding StudentNumber, RelativeSource={RelativeSource AncestorType=Canvas}}" Foreground="White"/>
+        <TextBlock FontFamily="微软雅黑" FontSize="26" Text="人" Foreground="White" HorizontalAlignment="Right"/>
+    </DockPanel>
+    <DockPanel Canvas.Right="30" Canvas.Top="175" Height="60" >
+        <TextBlock x:Name="CorrectRate" FontFamily="微软雅黑" FontSize="26" Text="{Binding AverageCorrectRate, RelativeSource={RelativeSource AncestorType=Canvas}}" Foreground="#FFA2E100"/>
+        <TextBlock FontFamily="微软雅黑" FontSize="26" Text="%" Foreground="#FFA2E100"/>
+    </DockPanel>
+
+
+</Canvas>
+
